@@ -3,6 +3,7 @@
 import react from "react"
 import {createRoot} from "react-dom/client"
 import "./style.css"
+// import Tasbiih from "./Tasbiix/Tasbiih";
 
 const root = document.getElementById("root");
 
@@ -14,14 +15,16 @@ const root = document.getElementById("root");
 // import Food  from "./Component/Food"
 
 // // import Tasbiix from "./Component/Tasbiix"
-// import Tasbiih from "./Component/Tasbiih";
+
 
 
 // import Slider from "./Component/Slider"
 // import Heeder from "./Component/Heeder";
 
 
-import Light from "./Light/Light";
+// import Light from "./Light/Light";
+// import Tasbiih from "./Tasbiix/Tasbiih";
+import Slider from "./Slider/Slider";
 
 createRoot(root).render(
 
@@ -33,7 +36,10 @@ createRoot(root).render(
 <div>
 {/* 
 <Slider/> */}
-<Light/>
+{/* <Light/>
+<Tasbiih/> */}
+
+<Slider/>
 
 {/* <Heeder/> */}
 {/* <Tasbiih /> */}
